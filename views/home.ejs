@@ -1,10 +1,10 @@
 <%- include('partials/header') %>
 
-<h1>Home</h1>
-<p><%=data%></p>
+<h1>WELCOME</h1>
+<p>Happy Writing!!</p>
 
 <% for(var i =0;i<posts.length;i++) {%>
-    <h1><%=posts[i].title%></h1>
+    <h3><%=posts[i].title%></h3>
     <%let k = posts[i].post;%>
     <%if(posts[i].post.length>100){%>
         <%k=posts[i].post.slice(0,100)%>
